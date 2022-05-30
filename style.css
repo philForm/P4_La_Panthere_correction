@@ -793,13 +793,15 @@ h4 {
 
 .btn-atomic-tangerine {
     /* background: #f3976c; */
-    background: #f25656;
-    color: #ffffff !important;
+    background: #f3976c;
+    /* color: #ffffff !important; */
+    /* ajout : changement de la couleur du texte en noir */
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #ffffff !important;
+    /* color: #ffffff !important; */
 }
 
 .ltc-white {
@@ -1045,6 +1047,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    /* rajout */
+    .bg-presentation {
+        background-image: none;
+        background-color: #f3976c;
     }
 }
 
