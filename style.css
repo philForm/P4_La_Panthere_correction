@@ -1071,6 +1071,11 @@ h4 {
 /* =========================== */
 /* css ajouté */
 /* =========================== */
+/* css ramené de index.html dans le feuille de style */
+.navbar-logo > img{
+    height: 40px;
+    max-width: 220px;
+}
 
 /* centre le titre h2 */
 div.h2-center {
@@ -1088,4 +1093,12 @@ img.logo {
 
 div.blue {
     background-color: #364577;
+}
+
+/* Page contact bouton de scrolltotop */
+.scrollToTop{
+    background-color: #000000;
+}
+.scrollToTop > span{
+    color: white;
 }
